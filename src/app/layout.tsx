@@ -18,6 +18,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <title>Sabores Brasileiros</title>
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta
+        name="description"
+        content="Sabores Brasileiros: Onde Cada Prato Conta uma História de Sabor e Tradição!"
+      />
+      <meta
+        name="keywords"
+        content="restaurante, sabores brasileiros, tradicao, sabor e historia"
+      />
+      <meta name="author" content="Arlisson Costa" />
       <body className="mx-auto max-w-7xl px-2">
         <Navbar />
         <ToastProvider>{children}</ToastProvider>

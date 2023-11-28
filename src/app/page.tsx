@@ -6,17 +6,23 @@ import Menu from "@/components/Menu";
 import TableReservation from "@/components/TableReservation";
 import Newsletter from "@/components/Newsletter";
 import Location from "@/components/Location";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <main>
-      <Intro />
-      <PopularDishes />
-      <Services />
-      <Menu />
-      <TableReservation />
-      <Newsletter />
-      <Location />
-    </main>
+    <>
+      <Head>
+        <title>Sabores Brasileiros</title>
+      </Head>
+      <main>
+        <Intro />
+        <PopularDishes />
+        <Services />
+        <Menu />
+        <TableReservation />
+        <Newsletter />
+        <Location />
+      </main>
+    </>
   );
 }
