@@ -5,7 +5,7 @@ import { TbPaperBag } from "react-icons/tb";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-col lg:flex-row justify-between items-center mt-5 mb-20">
+    <nav className="flex flex-col lg:flex-row justify-between items-center mt-5 mb-20 mx-auto max-w-7xl px-2">
       <Link href="/">
         <Image src={logoSvg} alt="Logo" />
       </Link>

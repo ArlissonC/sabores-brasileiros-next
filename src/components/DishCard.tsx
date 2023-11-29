@@ -18,7 +18,7 @@ const DishCard = ({ dish }: DishCardProps) => {
 
   return (
     <div className="bg-white m-1 mr-4 shadow rounded-md px-8 pb-3 pt-6 flex justify-center items-center flex-col gap-2 mt-10 max-w-sm">
-      <img src="https://i.imgur.com/1Jpv4Xd.png" alt="Feijoada" />
+      <img src={dish.img} alt={dish.dish} className="w-52 max-w-full" />
       <span className="font-righteous text-2xl text-brand-secondary font-semibold">
         {dish.dish}
       </span>

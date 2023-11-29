@@ -7,6 +7,7 @@ import TableReservation from "@/components/TableReservation";
 import Newsletter from "@/components/Newsletter";
 import Location from "@/components/Location";
 import Head from "next/head";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Sabores Brasileiros</title>
       </Head>
-      <main>
+      <main className="mx-auto max-w-7xl px-2">
         <Intro />
         <PopularDishes />
         <Services />
@@ -23,6 +24,7 @@ export default function Home() {
         <Newsletter />
         <Location />
       </main>
+      <Footer />
     </>
   );
 }

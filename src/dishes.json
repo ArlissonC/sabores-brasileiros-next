@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/macarronada.png",
     "dish": "Macarronada",
     "stars": 4,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/batata-frita.png",
     "dish": "Batata Frita",
     "stars": 3,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/feijoada.png",
     "dish": "Feijoada",
     "stars": 5,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/tacaca.png",
     "dish": "Tacacá",
     "stars": 4,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/buxada.png",
     "dish": "Buxada de Bode",
     "stars": 3,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/pao-de-queijo.png",
     "dish": "Pão de Queijo",
     "stars": 5,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/cuca.png",
     "dish": "Cuca",
     "stars": 2,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/coxinha.png",
     "dish": "Coxinha",
     "stars": 5,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "img": "@/assets/feijoada.png",
+    "img": "https://raw.githubusercontent.com/ArlissonC/sabores-brasileiros/master/img/baiao-de-dois.png",
     "dish": "Baião de Dois",
     "stars": 5,
     "description": "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.",

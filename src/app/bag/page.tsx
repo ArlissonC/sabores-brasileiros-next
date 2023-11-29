@@ -40,7 +40,7 @@ const Bag = () => {
   } = useBag();
 
   return (
-    <section className="bg-white rounded-xl p-4">
+    <section className="bg-white rounded-xl p-4 mx-auto max-w-7xl px-2">
       <h2 className="font-righteous text-3xl text-center border-b-2 border-brand-light pb-2">
         Sua sacola
       </h2>
@@ -48,12 +48,7 @@ const Bag = () => {
         <>
           {bag.map((b) => (
             <div className="font-righteous flex flex-col lg:flex-row items-center lg:justify-between gap-4 mt-10 text-xl border-b-2 pb-6">
-              <Image
-                src={Feijoada}
-                width={80}
-                alt="Feijoada"
-                className="rounded-full"
-              />
+              <img src={b.img} alt={b.dish} className="w-20 max-w-full" />
               <p className="lg:w-40">{b.dish}</p>
               <div className="flex gap-2">
                 <button
@@ -144,6 +139,9 @@ const Bag = () => {
               />
             </div>
           </div>
+          <button className="w-full border border-brand bg-brand-light p-4 rounded-md mt-4 font-righteous text-xl">
+            Finalizar pedido
+          </button>
         </>
       ) : (
         <p className="font-righteous text-xl text-center mt-4 text-slate-700">

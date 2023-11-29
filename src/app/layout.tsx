@@ -29,7 +29,7 @@ export default function RootLayout({
         content="restaurante, sabores brasileiros, tradicao, sabor e historia"
       />
       <meta name="author" content="Arlisson Costa" />
-      <body className="mx-auto max-w-7xl px-2">
+      <body>
         <Navbar />
         <ToastProvider>{children}</ToastProvider>
       </body>
