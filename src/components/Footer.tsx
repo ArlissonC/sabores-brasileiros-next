@@ -2,8 +2,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="mt-20 bg-brand-light h-28 py-6">
-      <div className="mx-auto max-w-7xl px-2 flex justify-between items-center gap-2 text-lg">
+    <footer className="mt-20 bg-brand-light h-fit py-6">
+      <div className="mx-auto max-w-7xl px-2 flex flex-col text-center lg:text-left lg:flex-row justify-between items-center gap-2 text-lg">
         <div className="flex flex-col gap-2">
           <p>
             Desenvolvido por:

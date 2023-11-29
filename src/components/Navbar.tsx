@@ -9,7 +9,7 @@ const Navbar = () => {
       <Link href="/">
         <Image src={logoSvg} alt="Logo" />
       </Link>
-      <ul className="flex items-center gap-4 font-semibold text-lg">
+      <ul className="flex items-center gap-4 font-bold text-lg">
         <li>Serviços</li>
         <li>Menu</li>
         <li>Contato</li>

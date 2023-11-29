@@ -20,7 +20,7 @@ const Services = () => {
           <h2 className="font-righteous text-4xl font-semibold">
             Múltiplos serviços para lhe servir
           </h2>
-          <p>
+          <p className="my-4 lg:my-0">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s
