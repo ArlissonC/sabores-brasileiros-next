@@ -3,7 +3,10 @@ import LocationBg from "@/assets/location-bg.png";
 
 const Location = () => {
   return (
-    <section className="mt-40 flex flex-col lg:flex-row justify-center gap-10 lg:gap-40 items-center">
+    <section
+      className="mt-40 flex flex-col lg:flex-row justify-center gap-10 lg:gap-40 items-center"
+      id="contact"
+    >
       <div className="flex flex-col gap-4">
         <h2 className="font-righteous text-3xl font-semibold border-b pb-2">
           Nossa localização

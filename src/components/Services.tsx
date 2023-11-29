@@ -9,7 +9,7 @@ import Ambient from "@/assets/ambient.svg";
 
 const Services = () => {
   return (
-    <section className="mt-40">
+    <section className="mt-40" id="services">
       <div className="flex items-center justify-center gap-14">
         <Image
           src={ServicesBg}

@@ -10,9 +10,15 @@ const Navbar = () => {
         <Image src={logoSvg} alt="Logo" />
       </Link>
       <ul className="flex items-center gap-4 font-bold text-lg">
-        <li>Serviços</li>
-        <li>Menu</li>
-        <li>Contato</li>
+        <li>
+          <a href="/#services">Serviços</a>
+        </li>
+        <li>
+          <a href="/#menu">Menu</a>
+        </li>
+        <li>
+          <a href="/#contact">Contato</a>
+        </li>
         <li className="relative">
           <Link
             href="bag"

@@ -17,7 +17,7 @@ const Menu = () => {
   const filteredDishes = dishes.filter((d) => d.region === activeFilter);
 
   return (
-    <section className="mt-40 flex flex-col gap-10">
+    <section className="mt-40 flex flex-col gap-10" id="menu">
       <h2 className="text-center font-righteous text-4xl font-semibold">
         Nosso menu
       </h2>
